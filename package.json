@@ -1,0 +1,22 @@
+{
+    "name": "soccer-api",
+    "version": "1.0.0",
+    "description": "api de soccer",
+    "author": "Mouhammad WaganeDiouf",
+    "devDependencies": {
+        "axios": "^1.7.2",
+        "nodemon": "^3.1.4",
+        "vite": "^5.3.4"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+				"start": "nodemon app.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "helmet": "^7.1.0"
+    }
+}
